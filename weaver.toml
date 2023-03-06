@@ -1,0 +1,8 @@
+[serviceweaver]
+binary = "./demo-service-weaver"
+
+[gke]
+regions = ["europe-southwest1-a"]
+public_listener = [
+    {name = "demo-service-weaver", hostname = "demo-service-weaver.dev.blogic.tech"},
+]
